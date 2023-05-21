@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
+	<form method="get|post">
         <label for="name">Name*</label>
         <input type="text" id="name" placeholder="Name" required>
         <br>
@@ -21,7 +21,7 @@
         <input type="radio"  name="gender" id="gender_m" required>
         <label for="gender_m">M</label>
         <input type="radio" name="gender" id="gender_f" required>
-        <label for="#gender_f">F</label>
+        <label for="gender_f">F</label>
         <br>
         <br>
         <label for="cars">Cars</label>
@@ -39,7 +39,7 @@
         <br>
         <br>
         <label for="dob">DOB*</label>
-        <input type="date" id="dob">
+        <input type="date" id="dob" required>
         <br>
         <br>
         <label for="tel">Phone Number</label>
@@ -54,7 +54,7 @@
         <label for="tos">I agree to the TOS.</label>
         <br>
         <br>
-        <input type="submit" name="submit" value="Submit" id="submit">
+        <button type="button">Submit</button> 
     </form>
     <script type="text/javascript" src="./script.js">
 </script>
